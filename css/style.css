@@ -1,0 +1,378 @@
+.common-button a{
+    text-decoration: none;
+    background: #4CAF4F;
+    padding: 14px 32px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    font-family: "Inter", sans-serif;
+    border: 1px solid transparent;
+    transition: .5s;
+    display: inline-block;
+}
+.common-button a:hover{
+    background: transparent;
+    color: #4CAF4F;
+    border-color: #4CAF4F;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 8px;
+}
+.title p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+}
+.box{
+    display: flex;
+}
+
+nav{
+    background: #F5F7FA;
+}
+
+.navber-button a{
+    text-decoration: none;
+    background: #4CAF4F;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    font-family: "Inter", sans-serif;
+    border: 1px solid transparent;
+    transition: .5s;
+    margin-left: 10px;
+    display: inline-block;
+}
+.navber-button a:hover{
+    background: transparent;
+    color: #4CAF4F;
+    border-color: #4CAF4F;
+}
+.navbar-nav{
+    column-gap: 50px;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    color: #18191F;
+    font-family: "Inter", sans-serif;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.Banner{
+     background: #F5F7FA;
+     padding: 96px 0;
+}
+.Banner h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #4D4D4D;
+    font-family: "Inter", sans-serif;
+}
+.Banner span{
+    color: #4CAF4F;
+}
+.Banner p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+.client{
+    padding: 40px;
+}
+.client .box{
+    justify-content: space-between;
+    padding: 41px 0;
+}
+.community{
+    padding: 41px 0;
+}
+.community .title h2{
+    width: 542px;
+    margin: 0 auto;
+    padding-bottom: 8px;
+} 
+.community .card{
+    width: 100% !important;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 24px;
+    padding-bottom: 42px;
+    text-align: center;
+    border: 0 !important;
+    -webkit-box-shadow: 0px 5px 20px 4px rgba(171,190,209,0.2);
+-moz-box-shadow: 0px 5px 20px 4px rgba(171,190,209,0.2);
+box-shadow: 0px 5px 20px 4px rgba(171,190,209,0.2);
+margin-top: 17px;
+}
+.community .card img{
+    width: 25%;
+    margin: 0 auto;
+}
+.community .card .card-title{
+    font-size: 28px;
+    font-weight: 700;
+    color: #4D4D4D;
+    font-family: "Inter", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    width: 231px;
+    margin: 0 auto;
+}
+.community .card .card-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+}
+.community .card .card-body{
+    padding: 0 !important;
+}
+.pixel-grade{
+    padding: 52px 0;
+}
+.pixel-grade .title{
+    text-align: left;
+}
+.pixel-grade .title p{
+    padding-bottom: 24px;
+}
+.business{
+    padding: 84px 0;
+    margin: 48px 0;
+    background: #F5F7FA;
+}
+.business .title{
+    text-align: left;
+}
+.business .title h2 span{
+    color: #4CAF4F;
+}
+.business .title h2{
+    width: 390px;
+}
+.business .box{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+.business .payment-box{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    
+}
+.business .payment-box h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: #4D4D4D;
+    font-family: "Inter", sans-serif;
+}
+.business .payment-box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+}
+.design .title{
+    text-align: left;
+}
+.design .title p{
+    padding-bottom: 24px;
+}
+.customer{
+    padding: 32px 0;
+    background: #F5F7FA;
+    margin: 48px 0;
+}
+.customer .cp-1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+    width: 748px;
+}
+.customer .cp-2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #89939E;
+    font-family: "Inter", sans-serif;
+}
+.customer h6{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4CAF4F;
+    font-family: "Inter", sans-serif;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+.customer .slider{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+.customer .slider h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4CAF4F;
+    font-family: "Inter", sans-serif;
+}
+.customer .slider h4 i{
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.marketing .title p{
+    width: 628px;
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+.marketing .card{
+    border: 0;
+}
+.marketing .card img{
+    width: 100%;
+    border-radius: 8px;
+}
+.marketing .card .image-part{
+    padding-bottom: 80px;
+    position: relative;
+    overflow: hidden;
+}
+.marketing .card .overly {
+    background: #F5F7FA;
+    width: 317px;
+    height: 176px;
+    border-radius: 8px;
+    position: absolute;
+    top: -48%;
+    left: 40px;
+    -webkit-box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
+-moz-box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
+box-shadow: -4px 7px 15px -5px rgba(0,0,0,0.4);
+    transition: .8s;
+
+}
+.marketing .card .image-part:hover .overly{
+        top: 220px;
+        left: 47px;
+        
+}
+
+.marketing .card h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    width: 285px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+.marketing .card .overly h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4CAF4F;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+.marketing .card .overly h5:hover{
+    background: rgba(76, 175, 79, .50);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    padding: 14px 10px;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+.marketing .card .overly h5 i{
+    margin-left: 10px;
+}
+.details .common-button{
+    padding: 32px;
+}
+.details{
+    background: #F5F7FA;
+}
+.details .common-button i{
+    margin-left: 8px;
+}
+.details .suscipit{
+    text-align: center;
+}
+.details .suscipit h2{
+    font-size: 64px;
+    font-weight: 600;
+    color: #263238;
+    font-family: "Inter", sans-serif;
+    width: 887px;
+    margin: 0 auto;
+}
+.footer{
+    background: #263238;
+    padding-top: 64px;
+    padding-bottom: 75px;
+}
+.footer .logo-part h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F7FA;
+    font-family: "Inter", sans-serif;
+    padding-top: 40px;
+    padding-bottom: 8px;
+}
+.footer .logo-part h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: #F5F7FA;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 40px;
+}
+.footer .social-media ul{
+    column-gap: 24px;
+    display: flex;
+    color: #FFFFFF;
+    list-style: none;
+    padding: 0;
+    font-size: 24px;
+}
+.footer .user h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 24px;
+}
+.footer .user ul{
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    padding: 0;
+    list-style: none;
+}
+.footer .user ul li{
+    padding-bottom: 12px;
+}
+.footer .user h4{
+    padding-bottom: 24px;
+}
+.footer .user span{
+    border: none;
+    background: rgba(255, 255, 255, .20);
+}
